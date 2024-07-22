@@ -13,7 +13,7 @@
 </p>
 <p align="center">
 <img src="https://capsule-render.vercel.app/api?type=venom&color=timeGradient&height=40&section=header&text=Contributions&fontSize=15" width=100%>
-<img src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=woongaaaa&theme=default" width=50%>
+<img src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=woongaaaa&theme=default" width=65%>
 </p>
 <p align="center">
 <img src="https://capsule-render.vercel.app/api?type=venom&color=timeGradient&height=40&section=header&text=Problem%20Solving&fontSize=15" width=100%>
