@@ -1,5 +1,5 @@
 <div align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&color=timeGradient&height=150&section=header&text=woongaaaa&fontAlignY=30&animation=blink&fontSize=50" width=100%>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=timeGradient&height=150&section=header&text=woongaaaa&fontAlignY=30&animation=fadeIn&fontSize=50" width=100%>
 <p align="center">
 <img src="https://capsule-render.vercel.app/api?type=venom&color=timeGradient&height=40&section=header&text=%20TechStack%20&fontSize=15" width=100%>
   <img src="https://img.shields.io/badge/iOS-000000?style=flat-square&logo=Apple&logoColor=white"/>
