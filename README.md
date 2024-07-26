@@ -19,10 +19,6 @@
 <img src="https://capsule-render.vercel.app/api?type=venom&color=timeGradient&height=40&section=header&text=Problem%20Solving&fontSize=15" width=100%>
 <img src="http://mazassumnida.wtf/api/v2/generate_badge?boj=woongaaaa" height=10%>
 </p>
-<p align="center">
-<img src="https://capsule-render.vercel.app/api?type=venom&color=timeGradient&height=40&section=header&text=%20Overview%20&fontSize=15" width=100%>
-<img src="./profile-3d-contrib/profile-night-rainbow.svg" alt="Profile Image" width=70%>
-</p>
 <img src="https://capsule-render.vercel.app/api?type=waving&color=timeGradient&height=100&section=footer&text=%20&fontSize=90" width=100%>
 
 </div>
