@@ -11,7 +11,7 @@
 
 <div>
 <h3>🔗 Links</h3>
-<p> • <a href="https://velog.io/@woongaaaa/posts">Velog</a></p>
+<p> • <a href="https://velog.io/@woongaaaa/posts">Velog</a><br> • <a href="https://github.com/woongaaaa/TIL">TIL</a></p>
 </div>
 
 <div>
