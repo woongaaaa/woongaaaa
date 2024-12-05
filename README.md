@@ -2,31 +2,31 @@
 import Foundation
 
 protocol SelfIntroductionDelegate: AnyObject {
-    func didRequestSkills() -> [String]
-    func didRequestProjects() -> [String]
-    func didRequestAwards() -> [String]
+    func requestSkills() -> [String]
+    func requestProjects() -> [String]
+    func requestAwards() -> [String]
 }
 
 final class Woongaaaa {
     weak var delegate: SelfIntroductionDelegate?
     
     func startIntroduction() {
-        print("🛠 Skills: \(delegate?.didRequestSkills().joined(separator: ", ") ?? "None")")
+        print("🛠 Skills: \(delegate?.requestSkills().joined(separator: ", ") ?? "None")")
         
         print("📚 Projects:")
-        delegate?.didRequestProjects().forEach { print("- \($0)") }
+        delegate?.requestProjects().forEach { print("- \($0)") }
         
         print("🏆 Awards:")
-        delegate?.didRequestAwards().forEach { print("- \($0)") }
+        delegate?.requestAwards().forEach { print("- \($0)") }
     }
 }
 
-class Profile: SelfIntroductionDelegate {
-    func didRequestSkills() -> [String] {
+final class MyProfile: SelfIntroductionDelegate {
+    func requestSkills() -> [String] {
         ["Swift", "UIKit"]
     }
     
-    func didRequestProjects() -> [String] {
+    func requestProjects() -> [String] {
         [
             "메메(MEME): 나만의 메이크업 메이트",
             "스튜(STEW): 전국 대학교 제휴업체를 어디에서나!",
@@ -34,7 +34,7 @@ class Profile: SelfIntroductionDelegate {
         ]
     }
     
-    func didRequestAwards() -> [String] {
+    func requestAwards() -> [String] {
         [
             "2023년도 창의공학설계 전시회 은상",
             "UMC 5th DEMODAY ExtraPrize"
@@ -43,7 +43,7 @@ class Profile: SelfIntroductionDelegate {
 }
 
 let woongaaaa = Woongaaaa()
-let profile = Profile()
+let profile = MyProfile()
 woongaaaa.delegate = profile
 woongaaaa.startIntroduction()
 
